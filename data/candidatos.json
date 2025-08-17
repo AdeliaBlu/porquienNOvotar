@@ -1,0 +1,52 @@
+[
+  {
+    "id": "EJEMPLO-001",
+    "nombre": "Juan Pérez (EJEMPLO)",
+    "partido": "Partido X",
+    "region": "Lima",
+    "foto": "https://via.placeholder.com/256x256.png?text=Candidato",
+    "antecedentes": [
+      {
+        "tipo": "Corrupción",
+        "estado": "condena_firme",
+        "descripcion": "Sentencia firme por delito de corrupción (ejemplo ficticio).",
+        "expediente": "EXP-0000-2020-0-0000-JR",
+        "fecha": "2021-06-10",
+        "fuente_url": "https://pj.poderjudicial.gob.pe/"
+      }
+    ]
+  },
+  {
+    "id": "EJEMPLO-002",
+    "nombre": "María López (EJEMPLO)",
+    "partido": "Movimiento Regional Y",
+    "region": "Cusco",
+    "foto": "https://via.placeholder.com/256x256.png?text=Candidata",
+    "antecedentes": [
+      {
+        "tipo": "Administrativo",
+        "estado": "investigacion_preliminar",
+        "descripcion": "Investigación preliminar por presunta irregularidad administrativa (ejemplo).",
+        "expediente": "MP-INV-1234-2023",
+        "fecha": "2024-03-22",
+        "fuente_url": "https://www.mpfn.gob.pe/"
+      },
+      {
+        "tipo": "Civil",
+        "estado": "sentencia_1ra_instancia",
+        "descripcion": "Sentencia de primera instancia (apelada) por responsabilidad civil (ejemplo).",
+        "expediente": "EXP-1111-2024-0-0000-JR",
+        "fecha": "2024-11-05",
+        "fuente_url": "https://pj.poderjudicial.gob.pe/"
+      }
+    ]
+  },
+  {
+    "id": "EJEMPLO-003",
+    "nombre": "Carlos Ramos (EJEMPLO)",
+    "partido": "Independiente",
+    "region": "Piura",
+    "foto": "https://via.placeholder.com/256x256.png?text=Candidato",
+    "antecedentes": []
+  }
+]

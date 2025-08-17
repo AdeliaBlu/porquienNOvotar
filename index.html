@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VigilaTuVoto Perú 2026 — Información verificable sobre candidatos</title>
+  <meta name="description" content="Consulta información verificable de candidatos para las Elecciones Generales 2026 en Perú.">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container row between center">
+      <a class="brand" href="index.html">VigilaTuVoto <span class="muted">Perú 2026</span></a>
+      <nav class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="metodologia.html">Metodología</a>
+        <a href="privacidad.html">Privacidad</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Datos verificables para votar informado</h1>
+      <p class="lead">
+        Este sitio muestra información pública y verificable sobre candidaturas a las Elecciones Generales 2026.
+        <strong>No afirmamos culpabilidad</strong>: los procesos en curso no son condena. Presunción de inocencia.
+      </p>
+      <div class="disclaimer">
+        <strong>Importante:</strong> Esta es una <em>plantilla de ejemplo</em> con datos ficticios. Sustituye el archivo <code>data/candidatos.json</code> por información real con <a href="metodologia.html">metodología</a> y <a href="privacidad.html">cumplimiento legal</a>.
+      </div>
+    </section>
+
+    <section class="filters card">
+      <div class="row wrap gap">
+        <label class="input-group">
+          <span>Búsqueda</span>
+          <input id="q" type="search" placeholder="Nombre, partido..." />
+        </label>
+        <label class="input-group">
+          <span>Partido</span>
+          <select id="filter-partido"><option value="">Todos</option></select>
+        </label>
+        <label class="input-group">
+          <span>Región</span>
+          <select id="filter-region"><option value="">Todas</option></select>
+        </label>
+        <label class="input-group">
+          <span>Estado de procesos</span>
+          <select id="filter-estado">
+            <option value="">Todos</option>
+            <option value="condena_firme">Condena firme</option>
+            <option value="proceso_en_curso">En curso (invest./juicio)</option>
+            <option value="sin_procesos">Sin procesos</option>
+          </select>
+        </label>
+      </div>
+      <div id="stats" class="stats"></div>
+    </section>
+
+    <section id="results" class="grid"></section>
+
+    <dialog id="modal">
+      <article class="modal-card">
+        <header class="row between center">
+          <h3 id="modal-title">Ficha</h3>
+          <button id="modal-close" aria-label="Cerrar">✕</button>
+        </header>
+        <div id="modal-body"></div>
+      </article>
+    </dialog>
+
+    <section class="cta card">
+      <h2>¿Eres candidato o representante?</h2>
+      <p>Solicita rectificación o agrega descargos con pruebas. Incluye enlaces oficiales (JNE, PJ, MP, etc.).</p>
+      <p>
+        Envíanos un correo a
+        <a href="mailto:contacto@tu-dominio.pe?subject=Rectificaci%C3%B3n%20de%20ficha%20-%20VigilaTuVoto%202026">
+          contacto@tu-dominio.pe
+        </a>
+        o abre un <em>issue</em> en tu repositorio público.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        © 2025 VigilaTuVoto (plantilla libre). Licencia CC BY 4.0 para contenidos y MIT para el código.
+        Esta web no realiza propaganda electoral. Información con fines cívicos y educativos.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
