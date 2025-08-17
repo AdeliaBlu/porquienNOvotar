@@ -144,7 +144,7 @@ function abrirModal(c) {
 }
 
 async function init() {
-  const res = await fetch('data/candidatos.json', { cache: 'no-store' });
+  const res = await fetch('data/candidatos_presidenciales.json', { cache: 'no-store' });
   const data = await res.json();
   state.data = data;
   llenarFiltros(data);
