@@ -1,0 +1,42 @@
+[
+  {
+    "id": "keiko_fujimori_2026",
+    "nombre": "Keiko Fujimori Higuchi",
+    "partido": "Fuerza Popular",
+    "region": "Nacional",
+    "foto": "",
+    "antecedentes": []
+  },
+  {
+    "id": "antauro_humala_2026",
+    "nombre": "Antauro Humala Tasso",
+    "partido": "Unión por el Perú (posible inscripción)",
+    "region": "Nacional",
+    "foto": "",
+    "antecedentes": []
+  },
+  {
+    "id": "rafael_lopez_aliaga_2026",
+    "nombre": "Rafael López Aliaga",
+    "partido": "Renovación Popular",
+    "region": "Nacional",
+    "foto": "",
+    "antecedentes": []
+  },
+  {
+    "id": "veronika_mendoza_2026",
+    "nombre": "Verónika Mendoza Frisch",
+    "partido": "Nuevo Perú (alianza en formación)",
+    "region": "Nacional",
+    "foto": "",
+    "antecedentes": []
+  },
+  {
+    "id": "hernando_de_soto_2026",
+    "nombre": "Hernando de Soto Polar",
+    "partido": "Avanza País (posible)",
+    "region": "Nacional",
+    "foto": "",
+    "antecedentes": []
+  }
+]
