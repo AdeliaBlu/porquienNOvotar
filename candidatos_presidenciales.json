@@ -5,7 +5,8 @@
     "partido": "Fuerza Popular",
     "region": "Nacional",
     "foto": "",
-    "antecedentes": []
+    "antecedentes": ["Investigación por lavado de activos (2018)",
+      "Prisión preventiva (2019)"]
   },
   {
     "id": "antauro_humala_2026",
@@ -13,7 +14,7 @@
     "partido": "Unión por el Perú (posible inscripción)",
     "region": "Nacional",
     "foto": "",
-    "antecedentes": []
+    "antecedentes": ["Condena por levantamiento de Andahuaylas (2005)"]
   },
   {
     "id": "rafael_lopez_aliaga_2026",
